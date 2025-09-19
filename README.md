@@ -1,50 +1,82 @@
-# Welcome to your Expo app 👋
+# 📱 Coffee List App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile desenvolvido em **React Native com Expo** que apresenta os cafés quentes e gelados mais populares, consumindo dados da [Coffee API](https://github.com/lslucassz/coffee-api).  
 
-## Get started
+A proposta é simples: unir design limpo, navegação fluida e uma experiência acolhedora para amantes de café ☕✨.
 
-1. Install dependencies
+---
 
+## 🚀 Tecnologias Utilizadas
+
+- **React Native (Expo)**
+- **Expo Router** para navegação
+- **Fetch API** para consumo da Coffee API
+- **StyleSheet** para estilização
+- **ESLint + Prettier** para organização do código
+
+---
+
+## 🌟 Funcionalidades
+
+✅ Tela de **Welcome**
+✅ Tela **Home** com a listagem de cafés quentes e gelados  
+✅ **Detalhes do café** com descrição e ingredientes  
+✅ **Internacionalização básica** (suporte a múltiplos idiomas)  
+✅ Integração direta com a [Coffee API](https://github.com/lslucassz/coffee-api)  
+✅ Estrutura organizada para expansão futura  
+
+---
+
+## 🔗 Integração com a API
+
+Este app depende da Coffee API, disponível aqui:
+👉 [Coffee API](https://github.com/lslucassz/coffee-api).
+
+Certifique-se de rodar a API antes de abrir o aplicativo.
+
+Se estiver usando em dispositivo físico, utilize um túnel (ex: localtunnel) para expor a API.
+
+---
+
+## 📢 Observações
+
+O projeto foi criado para fins de aprendizado e demonstração.
+Pode ser expandido facilmente para suportar banco de dados, autenticação de usuários e mais recursos.
+
+---
+
+## 📷 Captura de Tela!
+
+<img src="https://github.com/user-attachments/assets/58385aa8-82e6-4bc8-b11a-20ee8293953e" width="300" height="690">
+<img src="https://github.com/user-attachments/assets/a7a58be4-168b-43b0-98dc-7a551a8eb896" width="300" height="690">
+<img src="https://github.com/user-attachments/assets/12a0cb12-d8ed-4123-85bc-1f13944fcba1" width="300" height="690">
+<img src="https://github.com/user-attachments/assets/9b1eecaf-eecc-4254-a3fa-b4239e87ca07" width="300" height="690">
+
+## 📹 Demonstração em Vídeo
+
+Veja como adicionar, excluir e visualizar tarefas usando o app.
+
+https://github.com/user-attachments/assets/823162f5-5b7d-4c38-a43f-174f57eff2da
+
+---
+
+## 💡 Inspiração
+
+Este app foi inspirado na ideia de trazer informações de cafés de forma rápida, visual e agradável, simulando um catálogo digital para amantes de café. ☕❤️
+
+---
+
+## 📲 Como rodar o projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/lslucassz/coffee-list-ih
+   cd coffee-list-ih
+2. Instale as dependências:
    ```bash
    npm install
-   ```
-
-2. Start the app
-
+3. Rode o projeto com Expo:
    ```bash
    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
